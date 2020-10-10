@@ -3,7 +3,7 @@
 font-family: 'Josefin Sans', sans-serif;
 font-family: 'Oxygen', sans-serif;
 font-family: 'Playfair Display', serif; */
-main {
+body {
     background: rgb(60,0,150);
     background: linear-gradient(0deg, rgba(60,0,150,1) 0%, rgba(0,106,150,1) 51%, rgba(0,150,148,1) 100%);
 }
@@ -13,6 +13,7 @@ h1 {
     color: white;
 }
 nav ul li a {
+    font-family: 'Playfair Display', serif;
     color: white;
     text-decoration: none;
 }
