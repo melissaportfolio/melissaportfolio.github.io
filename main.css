@@ -10,5 +10,9 @@ main {
 
 h1 {
     font-family: 'Oxygen', sans-serif;
-    color: green;
+    color: white;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
 }
