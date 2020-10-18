@@ -1,0 +1,92 @@
+@media only screen and (min-width: 37.5em) {
+	main, footer{
+        max-width: 760px;
+        margin: auto;
+    }
+    .hideonsmall5day, .hideonsmallmap {
+        display: unset;
+    }
+    .navigation {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 15px;
+    }
+    .navigation li:first-child {
+        display: none;
+        white-space: nowrap;
+    }
+    .navigation li {
+        display: block;
+    }
+    #menu {
+        display: none;
+    } 
+    .navigation ul li a:hover {
+        background-color: #e59500;
+    }
+    .contactdiv {
+        float: right;
+    }
+    .contactdivfish {
+        float: right;
+        margin-right: 0;
+        width: 50%;
+    }
+    .dogimg, .fishimg, .sodaimg {
+        margin-top: 30px;
+        float: right;
+        padding: 5px;
+        width: 400px;
+        height: 267px;
+    }
+    
+    .mapcontactsection {
+        display: flex;
+        flex-direction: row;
+    }
+    .mapcontactsectionfish, .mapcontactsectionsoda {
+        display: flex;
+        flex-direction: row;
+        margin-right: 0;
+        width: 100%;
+    }
+/*Gallery css*/
+.gallery {
+    grid-template-columns: 1fr 1fr;
+}
+/*Home page css*/
+.towncards {
+    display: flex;
+}
+.towncards section {
+    display: flex;
+}
+.towncards section:nth-child(1){
+    order:3;
+    display: flex;
+    flex-grow: 1;
+    /*flex-direction: row-reverse;*/
+}
+
+
+.towncards section:nth-child(3) {
+    /*order:2;
+    display: flex;*/
+    flex-direction: row-reverse;
+    text-align: center;
+    
+}
+.towncard p {
+    font-size: 14px;
+}
+.towncards img {
+    width: 50%;
+    
+}
+.towncards section span {
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+}

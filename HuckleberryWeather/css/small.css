@@ -1,27 +1,535 @@
-img {
-    width: 100px;
+main {
+    display: block;
+}
+#week6photo {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+}
+nav {
+    margin: 0 auto;
+    background-color: #fafaff;
 }
 nav ul {
-    background-color: #648767;
-    color: #212922;
+    padding: 0;
+}
+nav ul li a:hover {
+    background-color: #e59500;
+    text-decoration: none;
+    
+}
+nav ul li.active a {
+    background-color: #721121;
+    color: #0d1321;
+}
+nav li a {
+    display: block;
+}
+nav button {
+    border: none;
+    font-size: 1.6rem;
+    background-color: transparent;
+    
+}
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    overflow: hidden;
+    border-left: 1px;
+}
+.navigation li:first-child {
+    display: block;
+}
+.navigation li {
+    display: none;
+    
+}
+.navigation a {
+    display: block;
+    color: #e59500;
+    padding: .25rem;
+    text-align: center;
+    text-decoration: none;
+}
+.navigation a:hover {
+    color: #721121;
+    
+   
+}
+.responsive li {
+    display: block;
+}
+
+#logo {
+    width: 125px;
+    height: auto;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    float: left;
+    padding: 0 0 0 0;
+    
+}
+header {
+    text-align: center;
+    background-color: #fafaff;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body {
+    margin: 0 auto;
+    background-color: #fafaff;
+    
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Paytone One', sans-serif;
+    color: #721121;
+    padding: 5px;
+    margin-left: 0;
+    position: relative;
+    float: left;
+    overflow: auto;
+}
+
+#tagline {
+    color:#002642;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 0 10px 0;
+    
+}
+.current {
+    background-color: #721121;
+}
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    line-height: 5px;
+    color:#721121;
+    text-align: center;
+}
+h3 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;    
+    color:#721121;
+    padding: 10px;
+    margin-top: 60px;
+    text-align: center;
+}
+h4, h5, .mapcontact {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;    
+    color:#721121;
+    padding: 10px;
+    margin-top: 60px;
+}
+
+.placeholder {
+    background-color: #e59500;
+    color: #0d1321;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    border-style: solid;
+    border-width: .5px;
+    border-color: #0d1321;
+    padding: 15px;
+}
+#sectionh1 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: #0d1321;
+    /*padding-top: 20px;*/
+    /*padding: 10px;
+    line-height: 30px;*/
+}
+nav ul{
+    background-color: #002642;
+    display: block;
+    width: 100%;
+    justify-content: space-around;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-}
-#linknav {
-    color: #212922;
-    text-decoration: none;
-
-    
-}
-ul {
     list-style: none;
+    padding: 10px;
+    line-height: 30px;
+    border:1px solid transparent;
+    overflow: hidden;
     
 }
-a:hover {
-    color: #8c2f39;
+
+.link {
+    text-decoration: none;
+    list-style: none;
+    color: #ada9a1;
+}
+.link1 {
+    text-decoration: none;
+    list-style: none;
+    color: #002642;
+}
+#weatherphoto {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+}
+table {
+    background-color: #fafaff;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+    padding-bottom: 15px;
+    }
+
+.tabletitle {
+    color: #721121;
+    background-color: #fafaff;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.blank {
+    background-color: #fafaff;
+}
+th {
+    background-color: #002642;
+    color: #fafaff;
+    width: 20%;
+}
+td {
+    color: #0d1321;
+    width: 20%;
+    border: 3px solid #721121;
+    background-color:hsl(39, 100%, 45%, 0.50);
+}
+.icon {
+    width: 25px;
+}
+footer, .sec3 {
+    background-color: #0d1321;
+    color: #e59500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    clear: both;
+    padding: 10px;
+    line-height: 25px;
+}
+.dogimg {
+    margin-top: 30px;
+    width: 100%;
+}
+.contactdiv, .contactdivfish {
+    text-align: center;
+}
+.hideonsmall5day, .hideonsmallmap {
+    display: none;
+}
+.hideonsmallmap {
+    max-width: 90%;
+    padding: 10px;
+}
+.herosection {
+    position: relative;
+}
+hr {
+    box-sizing: content-box;
+    height: 0;
+    width: 90%;
+    overflow: visible;
+    grid-column-end: 2 span;
+}
+.weathersummary {
+    background-color: hsl(350, 74%, 26%, .75);
+    padding: 5px;
+    max-width: 60%;
+    top: 25px;
+    left: 25px;
+    position: absolute;
+    box-shadow: inset 0 0 5px #e59500;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.weathersummary span:nth-child(even){
+    padding-left: 5px;
+}
+.weathersummary1 {
+    color: #fafaff;
+    font-size: 15px;
+    padding: 5px;
+    /*line-height: 1px;*/
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+.weathersummary2 {
+    color: #e59500;
+    font-size: 15px;
+    padding: 5px;
+    /*line-height: 1px;*/
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.weathersummaryheading {
+    color: #fafaff;
+    font-size: 15px;
+    /*line-height: 1px;*/
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    grid-column-end: 2 span;
+    /*border-bottom: 1px solid #e59500;*/
+}
+.pancakebanner {
+    display: none;
+}
+.banner {
+    background-color: #e59500;
+    color: #0d1321;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    font-size: 20px;
+    display: block;
+    
+}
+/*Gallery css*/
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-content: center;
+    column-gap: 10px;
+    /*grid-template-rows: 1fr;*/
 }
 
+figcaption {
+    background-color: hsl(39, 100%, 45%, 0.75);
+    color: #0d1321;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-size: 15px;
+}
+figure img[data-src] {
+    filter: blur(0.2em);
+  }
+
+figure img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    width: 100%;
+    height: auto;
+}
+/*CSS for storm form*/
+.formdata {
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    width: 400px;
+    max-width: 100%;
+}
+form fieldset {
+    border: 1px solid #721121;
+    margin: 2rem 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+.formtitle, .thankyoutitle, .thankyoup {
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+legend, label {
+    color: #002642;
+    font-size: 18px;
+    /*margin: 0 2rem;*/
+    padding: 0 .5rem;
+}
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #0d1321; 
+}
+form label.top input, form label.top select {
+    padding: .75rem;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .1);
+    max-width: 20rem;
+}
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+}
+form input.submitBtn {
+    padding: .75rem 1.25rem;
+    border-radius: 1rem;
+    color: #e59500;
+    background-color: #0d1321;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    width: 96%;
+    max-width: 20rem;
+}
+form label.top input:required {
+    border-left: #721121 solid 6px;
+}
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+textarea {
+    width: 90%;
+    height: 6rem;
+}
+/*Wireframe page*/
+img.wireimg {
+    margin: 0 auto;
+    width: 400px;
+    height: auto;
+}
+p.wiretext {
+    margin: 0 auto;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #721121;
+    font-size: 20px;
+    padding: 15px;
+}
+/*Home page*/
+.homeimg {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.towncards {
+    display: flex;
+    flex-direction: column;
+
+    /*flex-grow: 1;*/
+    
+    margin: 0 auto;
+    padding: 10px;
+}
+.towncard {
+    border-radius: 5px;
+}
+.towncard {
+    border: #721121 solid 3px;
+    padding: 10px;
+    margin: 10px;
+    background-color: hsl(39, 100%, 45%, .5);
+    border-radius: 10px;
+    
+}
+.towncard h4 {
+    margin-top: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.towncard section {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    
+}
+.towncard section span {
+    margin: 0 auto;
+}
+
+.towncards section span :nth-child(2){
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+/*.towncard section:nth-child(1){
+    order:2;
+}
+*/
+/*
+.towncards section:first-child {
+    order: 3;
+}
+*/
+.towncards section:nth-child(1){
+    order:3;
+}
+.towncards img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.towncard p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 14px;
+}
+.homediv p {
+    padding: 10px;
+    line-height: 30px;
+}
+.homeh3 {
+    margin-top: 0;
+}
+.eventcard {
+    border-radius: 5px;
+}
+.eventcard {
+    border: #721121 solid 3px;
+    padding: 10px;
+    margin: 10px;
+    background-color: hsl(205, 100%, 13%, .3);
+    border-radius: 10px;
+    text-align: center;
+}
+.eventcard h4 {
+    margin-top: 0;
+    margin: 0 auto;
+    text-align: center;
+    color: #0d1321;
+}
+.eventcard span hr {
+    border-color: #721121;
+}
+.fishimg, .sodaimg {
+    margin-top: 30px;
+    width: 100%;
+}
+/*Terms of Use Page*/
+.termuseh {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;    
+    color:#721121;
+    padding: 10px;
+    margin-top: 60px;
+    text-align: center;
+}
+.articlediv p {
+    padding: 10px;
+    line-height: 30px;
+}

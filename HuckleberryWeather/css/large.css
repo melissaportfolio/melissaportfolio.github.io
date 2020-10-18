@@ -1,0 +1,57 @@
+@media only screen and (min-width: 60em) {
+      
+    #weatherphoto {
+        width: 760px;
+        
+    }
+/*Gallery css*/
+.gallery {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+figure:hover{
+    box-shadow: 0 5px 8px 0;
+}
+form label.sbs {
+    padding: .4rem 0;
+}
+/*Home page*/
+.towncards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.towncards section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    
+}
+.towncards section:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.towncards section span {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+}
+.towncards img {
+    align-items: center;
+    width: 200px;
+    display: flex;
+}
+.towncard p {
+    margin: 5px;
+    
+    
+}
+.towncard {
+    width: 33.33%;
+}
+
+}
