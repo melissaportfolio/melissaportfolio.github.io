@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Temple Inn & Suites | Wedding Receptions</title>
+    <meta name="description" content="Melissa Hall Temple Inn & Suites Site | Reception Page | CIT 230">
+    <link rel="shortcut icon" href="faviconBlue.ico">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+
+        <nav>
+            <div>
+                <a href="index.html"><img id="logo" src="images/TempleLogo.jpg" alt="Blue temple logo"></a>
+            </div>
+            <section class="headings">
+                <h1>Temple Inn & Suites</h1>
+
+                <div class="tagline">We serve you while you serve others</div>
+            </section>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="temple.html">Temple</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="resh2">Wedding Reception Services</h2>
+        <section class="svcamenities">
+            <div class="amendiv">
+                <ul>
+                    <li>Wedding and Reception Options Available</li>
+                    <li>Full service catering and dessert bar</li>
+                    <li>DJ and dance floor available</li>
+                    <li>Wedding, reception, and honeymoon packages available</li>
+                    <li>Over 20 styles of wedding cakes to choose from</li>
+                    <li>Photography options available on request</li>
+                </ul>
+                <picture class="svcthumbimg">
+                    <img src="images/Placeholder200Op.jpg" data-src="images/Wedding200Op1.jpg"
+                        alt="Wedding cake with orange flowers">
+                </picture>
+                <picture class="svcthumbimg">
+                    <img src="images/Placeholder200Op.jpg" data-src="images/Wedding200Op2.jpg" alt="decorated table">
+                </picture>
+                <picture class="svcthumbimg">
+                    <img src="images/Placeholder200Op.jpg" data-src="images/Wedding200Op3.jpg"
+                        alt="wedding reception with white chairs and green ribbon">
+                </picture>
+                <picture class="svcthumbimg">
+                    <img src="images/Placeholder200Op.jpg" data-src="images/Wedding200Op4.jpg"
+                        alt="large wedding reception room with decorated tables">
+                </picture>
+                <div class="reservecontact">
+                    <h3>Reserve your event</h3>
+                    <button onclick="location.href='reservation.html'" type="button">
+                        Contact Us</button>
+                </div>
+            </div>
+        </section>
+        <section class="resform">
+            <div class="form">
+                <div class="form-text">
+
+                    <form method="get" action="thanks.html">
+                        <fieldset>
+                            <legend>Contact Us</legend>
+                            <label class="req"> Full Name*<input type="text" name="fullname" pattern="[A-Za-z ]{5,99}"
+                                    placeholder="First Last" required></label>
+                            <label class="req"> Email*<input type="email" name="email" placeholder="someone@gmail.com"
+                                    required></label>
+                            <label class="req"> Phone*<input type="tel" name="phone" placeholder="123-456-7890"
+                                    required></label>
+                            <label class="req"> Comments or Questions
+                                <textarea name="comments" placeholder="Enter text here"></textarea></label>
+                        </fieldset>
+                        <div class="submitdiv">
+                            <input type="submit" value="Submit" class="submitButton">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="rescontact">
+            <div>
+                <h4>Temple Inn & Suites</h4>
+                <p>Phone: (240) 123-4567</p>
+                <p>4800 Montgomery Ln #300</p>
+                <p>Bethesda, MD 20814 </p>
+                <p>contact@templeinnandsuites.com</p>
+                <p>templeinnandsuites.com</p>
+            </div>
+            <div>
+                <iframe class="resmap"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4050197013225!2d-77.09772048539614!3d38.983251779557555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1575584623428!5m2!1sen!2sus"
+                    width="400" height="300" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+        </section>
+        <section class="ressocialmedia">
+            <div>
+                <h5>Find us on social media!</h5>
+                <a href="https://www.facebook.com"><img class="socialIcon" src="images/PlaceholderSocialMediaIcon.jpg"
+                        data-src="images/FacebookIcon.png" alt="Facebook Icon"></a>
+                <a href="https://www.instagram.com"><img class="socialIcon" src="images/PlaceholderSocialMediaIcon.jpg"
+                        data-src="images/InstagramIcon.png" alt="Instagram Icon"></a>
+                <a href="https://twitter.com/home?lang=en"><img class="socialIcon"
+                        src="images/PlaceholderSocialMediaIcon.jpg" data-src="images/TwitterIcon.png"
+                        alt="Twitter Icon"></a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy;2019 | Melissa Hall | Utah | <a class="link" href="termsofuse.html">Terms of Use & Content
+            Attributions</a><br>
+        Current Date: <span id="currentday1"></span><br>
+
+        <a class="link" href="https://www.byui.edu/online">BYUI Online Learning</a><br>
+
+        <script src="js/togglemenu.js"></script>
+        <script src="js/currentday1.js"></script>
+        <script src="js/lazy.js"></script>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Source Code Pro', 'Noto Serif', 'Source Sans Pro', 'Sulphur Point', 'Rajdhani',
+                    'Paytone One', 'Aclonica', 'Fondamento', 'Gupter', 'Reem Kufi',
+                    'Cinzel Decorative'
+                ]
+            }
+        });
+    </script>
+
+</body>
+
+</html>
