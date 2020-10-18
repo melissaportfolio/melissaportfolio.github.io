@@ -1,0 +1,49 @@
+{
+    "saltlakehikes" : [
+        {
+            "hikeName" : "Livingroom Lookout Trail",
+            "details" : " ",
+            "location" : "Salt Lake City, Salt Lake County, UT",
+            "difficulty" : "Medium",
+            "length" : "2.3 miles",
+            "elevation" : "980 feet",
+            "description" : "A medium difficulty hike with many rocks and great views of the Salt Lake Valley."
+        },
+        {
+            "hikeName" : "Wild Rose Trail",
+            "details" : " ",
+            "location" : "North Salt Lake, Salt Lake County, UT",
+            "difficulty" : "Easy",
+            "length" : "2 miles",
+            "elevation" : "344 feet",
+            "description" : "This easy hike offers views of Salt Lake City and the City Creek area."
+        },
+        {
+            "hikeName" : "Rocky Mouth Falls Trail",
+            "details" : " ",
+            "location" : "Sandy, Salt Lake County, UT",
+            "difficulty" : "Easy",
+            "length" : ".7 miles",
+            "elevation" : "282 feet",
+            "description" : "This hike is easy but is steep with many stairs to the small creek and waterfall at the top."
+        },
+        {
+            "hikeName" : "Bear Canyon Bridge via Bonneville Shoreline Trail",
+            "details" : " ",
+            "location" : "Draper, Salt Lake County, UT",
+            "difficulty" : "Medium",
+            "length" : "3.3 miles",
+            "elevation" : "500 feet",
+            "description" : "This medium difficulty hike includes a bridge and access to the Bonneville Shoreline Trail and Bear Canyon Loop."
+        },
+        {
+            "hikeName" : "Heughs Canyon Trail",
+            "details" : " ",
+            "location" : "Sandy, Salt Lake County, UT",
+            "difficulty" : "Medium",
+            "length" : "3.5 miles",
+            "elevation" : "1,940 feet",
+            "description" : "This medium difficulty hike features a waterfall and scenic views."
+        }
+    ]
+}

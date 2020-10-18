@@ -1,0 +1,49 @@
+{
+    "zionhikes" : [
+        {
+            "hikeName" : "Zion Narrows Riverside Walk",
+            "details" : " ",
+            "location" : "Zion National Park, Springdale, UT",
+            "difficulty" : "Easy",
+            "length" : "2 miles",
+            "elevation" : "193 feet",
+            "description" : "This easy hike includes a beautiful waterfall in Zion National Park."
+        },
+        {
+            "hikeName" : "Northgate Peaks via Kolob Terrace",
+            "details" : " ",
+            "location" : "Zion National Park, Springdale, UT",
+            "difficulty" : "Medium",
+            "length" : "6 miles",
+            "elevation" : "1,118 feet",
+            "description" : "This hike includes access to the Virgin River for swimming."
+        },
+        {
+            "hikeName" : "Wildcat Canyon Trail",
+            "details" : " ",
+            "location" : "Zion National Park, Springdale, UT",
+            "difficulty" : "Hard",
+            "length" : "7.8 miles",
+            "elevation" : "625 feet",
+            "description" : "This hike includes access to the Subway Trail and allows rock climbing."
+        },
+        {
+            "hikeName" : "The Watchman Trail",
+            "details" : " ",
+            "location" : "Zion National Park, Springdale, UT",
+            "difficulty" : "Medium",
+            "length" : "3 miles",
+            "elevation" : "640 feet",
+            "description" : "This hike allows access to Angels Landing and the Narrows in Zion National Park."
+        },
+        {
+            "hikeName" : "Zion Grotto Trail",
+            "details" : " ",
+            "location" : "Zion National Park, Springdale, UT",
+            "difficulty" : "Easy",
+            "length" : "1.2 miles",
+            "elevation" : "80 feet",
+            "description" : "This easy hike leads you to the Emerald Trails in Zion National Park."
+        }
+    ]
+}

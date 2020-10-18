@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bryce Canyon | Hike Bike Go</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="hbgstyles.css">
+</head>
+<body>
+    <header><div><h1>Hike Bike Go</h1></div></header>
+    <nav>
+        <ul id="navigation">
+            <li><a href="#" id="menu">&equiv; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="national.html">Utah National Parks</a></li>
+            <li><a href="saltlake.html">Salt Lake County</a></li>
+            <li><a href="utah.html">Utah County</a></li>
+            <li><a href="davis.html">Davis County</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="mainsection">
+            <h2>Bryce Canyon</h2>
+            <div class="weathersection">
+                <p class="weatherheading">Weather Summary for Bryce Canyon</p>
+               
+                <span class="weatherlabel">Currently:</span>
+                <span class="weatherdata"><span id="Bcurrent-temp"></span></span>
+
+                <span class="weatherlabel">High:</span>
+                <span class="weatherdata"><span id="Btemp"></span>&deg;</span>
+
+                <span class="weatherlabel">Wind Chill:</span>
+                <span class="weatherdata"><span id="Bcalc"></span>&deg;</span>
+
+                <span class="weatherlabel">Humidity:</span>
+                <span class="weatherdata"><span id="Bhumidity">&deg;</span></span>
+
+                <span class="weatherlabel">Wind Speed:</span>
+                <span class="weatherdata"><span id="Bspeed"></span> mph</span>
+            </div>
+        </section>
+        <section>
+            <div class="BhikeDisplay">
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy; 2020 | Melissa Hall | WDD330 | Weather Data courtesy of<a href="https://openweathermap.org/api"> openweathermap.org</a>
+    </footer>
+    <script src="js/hbgmain.js"></script>
+    <script src="js/WeatherAPI.js"></script>
+    <script src="js/Bhikes.js"></script>
+    <script src="js/localStorage.js"></script>
+</body>
+</html>

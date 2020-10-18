@@ -1,0 +1,49 @@
+{
+    "davishikes" : [
+        {
+            "hikeName" : "Holbrook Canyon Trail",
+            "details" : " ",
+            "location" : "Bountiful, Davis County, UT",
+            "difficulty" : "Hard",
+            "length" : "5.4 miles",
+            "elevation" : "1,548 feet",
+            "description" : "This hike features a waterfall and the Holbrook Creek."
+        },
+        {
+            "hikeName" : "The Grotto in Hornet Canyon",
+            "details" : " ",
+            "location" : "Farmington, Davis County, UT",
+            "difficulty" : "Medium",
+            "length" : "2.4 miles",
+            "elevation" : "613 feet",
+            "description" : "This trail follows Hornet Creek and features two waterfalls."
+        },
+        {
+            "hikeName" : "Adams Canyon Trail",
+            "details" : " ",
+            "location" : "Kaysville, Davis County, UT",
+            "difficulty" : "Medium",
+            "length" : "3.8 miles",
+            "elevation" : "1,430 feet",
+            "description" : "This hike is medium difficulty and allows access to the Bonneville Shoreline Trail."
+        },
+        {
+            "hikeName" : "Centerville Canyon via Deuel Creek Trail",
+            "details" : " ",
+            "location" : "Centerville, Davis County, UT",
+            "difficulty" : "Medium",
+            "length" : "4.3 miles",
+            "elevation" : "1,312 feet",
+            "description" : "This medium difficulty hike up Centerville Canyon is full of trees and features a waterfall."
+        },
+        {
+            "hikeName" : "Baer Creek Trail",
+            "details" : " ",
+            "location" : "Kaysville, Davis County, UT",
+            "difficulty" : "Easy",
+            "length" : "1.7 miles",
+            "elevation" : "479 feet",
+            "description" : "This is an easy hike although it is a steep incline."
+        }
+    ]
+}

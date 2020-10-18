@@ -1,0 +1,49 @@
+{
+    "canyonhikes" : [
+        {
+            "hikeName" : "Maze Overlook Trail",
+            "details" : " ",
+            "location" : "Canyonlands National Park, Moab, UT",
+            "difficulty" : "Medium",
+            "length" : "8 miles",
+            "elevation" : "964 feet",
+            "description" : "A medium difficulty hike to view the Maze Overlook in Canyonlands National Park."
+        },
+        {
+            "hikeName" : "Grandview Point Trail",
+            "details" : " ",
+            "location" : "Canyonlands National Park, Moab, UT",
+            "difficulty" : "Easy",
+            "length" : "1.8 miles",
+            "elevation" : "173 feet",
+            "description" : "An easy hike good for all skill levels in Canyonlands National Park."
+        },
+        {
+            "hikeName" : "Chesler Park Viewpoint",
+            "details" : " ",
+            "location" : "Canyonlands National Park, Moab, UT",
+            "difficulty" : "Medium",
+            "length" : "5.4 miles",
+            "elevation" : "1,151 feet",
+            "description" : "A medium difficulty hike to the Chesler Park Viewpoint in Canyonlands National Park."
+        },
+        {
+            "hikeName" : "Slickrock Foot Trail",
+            "details" : " ",
+            "location" : "Canyonlands National Park, Moab, UT",
+            "difficulty" : "Medium",
+            "length" : "2.4 miles",
+            "elevation" : "137 feet",
+            "description" : "A medium difficulty hike to view the Needles in Canyonlands National Park."
+        },
+        {
+            "hikeName" : "Elephant Hill Trail",
+            "details" : " ",
+            "location" : "Canyonlands National Park, Moab, UT",
+            "difficulty" : "Easy",
+            "length" : "6.4 miles",
+            "elevation" : "728 feet",
+            "description" : "An easy hike in Canyonlands National Park that includes 4x4 availability."
+        }
+    ]
+}

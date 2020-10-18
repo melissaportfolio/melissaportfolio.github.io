@@ -1,0 +1,49 @@
+{
+    "utahhikes" : [
+        {
+            "hikeName" : "Battle Creek Falls Trail",
+            "details" : " ",
+            "location" : "Pleasant Grove, Utah County, UT",
+            "difficulty" : "Medium",
+            "length" : "4 miles",
+            "elevation" : "1850 feet",
+            "description" : "A medium difficulty hike featuring a waterfall."
+        },
+        {
+            "hikeName" : "Squaw Peak Trail",
+            "details" : " ",
+            "location" : "Provo, Utah County, UT",
+            "difficulty" : "Hard",
+            "length" : "7.3 miles",
+            "elevation" : "2,775 feet",
+            "description" : "This trail offers views of Utah County and Mount Timpanogos."
+        },
+        {
+            "hikeName" : "Dripping Rock Falls",
+            "details" : " ",
+            "location" : "Spanish Fork, Utah County, UT",
+            "difficulty" : "Easy",
+            "length" : ".7 miles",
+            "elevation" : "19 feet",
+            "description" : "This is a short, easy trail featuring water to play in for all ages."
+        },
+        {
+            "hikeName" : "Powerhouse Overlook",
+            "details" : " ",
+            "location" : "Springville, Utah County, UT",
+            "difficulty" : "Medium",
+            "length" : "2.9 miles",
+            "elevation" : "1,007 feet",
+            "description" : "This medium difficulty hike features beautiful views and has ATV access."
+        },
+        {
+            "hikeName" : "Slate Canyon Loop Trail",
+            "details" : " ",
+            "location" : "Provo, Utah County, UT",
+            "difficulty" : "Hard",
+            "length" : "8.5 miles",
+            "elevation" : "3,350 feet",
+            "description" : "This hike features a river and access to both Slate Canyon and Slide Canyon."
+        }
+    ]
+}

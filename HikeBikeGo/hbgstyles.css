@@ -1,0 +1,555 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Cabin&family=Lato&family=Rammetto+One&family=Source+Sans+Pro&family=Trade+Winds&display=swap");
+body {
+  background-color: #65A7CA;
+}
+
+h1 {
+  background-color: #65A7CA;
+  color: #FFF3D6;
+}
+
+h2 {
+  background-color: #3E6336;
+  color: #FFF3D6;
+}
+
+p {
+  background-color: #3E6336;
+  color: #FFF3D6;
+}
+
+.homeButtons {
+  background-color: #3E6336;
+  color: #E7D7C1;
+}
+
+footer {
+  background-color: #3E6336;
+  color: #E7D7C1;
+}
+
+nav ul li {
+  border: 1px solid #E7D7C1;
+  display: none;
+  background-color: #4C3220;
+}
+
+nav ul li a {
+  color: #E7D7C1;
+}
+
+a:hover {
+  color: #FFC53A;
+}
+
+.weatherheading {
+  background-color: #313E50;
+  color: #E7D7C1;
+}
+
+.weathersection {
+  background-color: #313E50;
+  box-shadow: inset 0 0 5px #65A7CA;
+}
+
+.weatherlabel {
+  color: #FFF3D6;
+}
+
+.weatherdata {
+  color: #65A7CA;
+}
+
+.AhikeDisplay h3 {
+  color: #FFF3D6;
+  background-color: #E06D06;
+}
+
+.AhikeDisplay h4 {
+  color: #313E50;
+  background-color: #FFC53A;
+}
+
+.AhikeDisplay p {
+  color: #4C3220;
+  background-color: #FFF3D6;
+}
+
+.BhikeDisplay h3 {
+  color: #FFF3D6;
+  background-color: #E06D06;
+}
+
+.BhikeDisplay h4 {
+  color: #313E50;
+  background-color: #FFC53A;
+}
+
+.BhikeDisplay p {
+  color: #4C3220;
+  background-color: #FFF3D6;
+}
+
+.CanhikeDisplay h3 {
+  color: #FFF3D6;
+  background-color: #E06D06;
+}
+
+.CanhikeDisplay h4 {
+  color: #313E50;
+  background-color: #FFC53A;
+}
+
+.CanhikeDisplay p {
+  color: #4C3220;
+  background-color: #FFF3D6;
+}
+
+.CaphikeDisplay h3 {
+  color: #FFF3D6;
+  background-color: #E06D06;
+}
+
+.CaphikeDisplay h4 {
+  color: #313E50;
+  background-color: #FFC53A;
+}
+
+.CaphikeDisplay p {
+  color: #4C3220;
+  background-color: #FFF3D6;
+}
+
+.ZhikeDisplay h3 {
+  color: #FFF3D6;
+  background-color: #E06D06;
+}
+
+.ZhikeDisplay h4 {
+  color: #313E50;
+  background-color: #FFC53A;
+}
+
+.ZhikeDisplay p {
+  color: #4C3220;
+  background-color: #FFF3D6;
+}
+
+.DhikeDisplay h3 {
+  color: #FFF3D6;
+  background-color: #E06D06;
+}
+
+.DhikeDisplay h4 {
+  color: #313E50;
+  background-color: #FFC53A;
+}
+
+.DhikeDisplay p {
+  color: #4C3220;
+  background-color: #FFF3D6;
+}
+
+.ShikeDisplay h3 {
+  color: #FFF3D6;
+  background-color: #E06D06;
+}
+
+.ShikeDisplay h4 {
+  color: #313E50;
+  background-color: #FFC53A;
+}
+
+.ShikeDisplay p {
+  color: #4C3220;
+  background-color: #FFF3D6;
+}
+
+.UhikeDisplay h3 {
+  color: #FFF3D6;
+  background-color: #E06D06;
+}
+
+.UhikeDisplay h4 {
+  color: #313E50;
+  background-color: #FFC53A;
+}
+
+.UhikeDisplay p {
+  color: #4C3220;
+  background-color: #FFF3D6;
+}
+
+h3.heart:after {
+  color: #FFF3D6;
+}
+
+h3.heart:hover:after,
+h3.heart.fav:after {
+  color: #A31621;
+}
+
+h3.heart.fav:hover:after {
+  color: #FFC53A;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  font-family: "Trade Winds", cursive;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: "Trade Winds", cursive;
+}
+
+.homeButtons {
+  font-family: "Trade Winds", cursive;
+  text-decoration: none;
+  border-radius: 15px 15px 15px 15px;
+}
+
+footer {
+  font-family: "Lato", sans-serif;
+}
+
+.weatherheading {
+  font-size: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+}
+
+.weatherlabel {
+  font-size: 17px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.weatherdata {
+  font-size: 17px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.AhikeDisplay h3 {
+  font-family: "Trade Winds", cursive;
+}
+
+.AhikeDisplay h4 {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.AhikeDisplay p {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.BhikeDisplay h3 {
+  font-family: "Trade Winds", cursive;
+}
+
+.BhikeDisplay h4 {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.BhikeDisplay p {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.CanhikeDisplay h3 {
+  font-family: "Trade Winds", cursive;
+}
+
+.CanhikeDisplay h4 {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.CanhikeDisplay p {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.CaphikeDisplay h3 {
+  font-family: "Trade Winds", cursive;
+}
+
+.CaphikeDisplay h4 {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.CaphikeDisplay p {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.ZhikeDisplay h3 {
+  font-family: "Trade Winds", cursive;
+}
+
+.ZhikeDisplay h4 {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.ZhikeDisplay p {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.ShikeDisplay h3 {
+  font-family: "Trade Winds", cursive;
+}
+
+.ShikeDisplay h4 {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.ShikeDisplay p {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.DhikeDisplay h3 {
+  font-family: "Trade Winds", cursive;
+}
+
+.DhikeDisplay h4 {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.DhikeDisplay p {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.UhikeDisplay h3 {
+  font-family: "Trade Winds", cursive;
+}
+
+.UhikeDisplay h4 {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.UhikeDisplay p {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+  background-image: url("/assets/HBG1.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1, h2 {
+  text-align: center;
+  padding: 15px;
+}
+
+.mainsection {
+  position: relative;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li:first-child {
+  display: block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+}
+
+.open li {
+  display: block;
+}
+
+.buttonContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.homeButtons {
+  display: grid;
+  padding: 15px;
+  margin: 15px;
+  display: grid;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+
+footer {
+  padding: 15px;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  bottom: 0;
+  width: 90%;
+}
+
+.weathersection {
+  padding: 5px;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.weathersection span:nth-child(even) {
+  padding-left: 5px;
+}
+
+.weatherlabel {
+  padding: 5px;
+  text-align: right;
+}
+
+.weatherdata {
+  padding: 5px;
+  text-align: left;
+}
+
+.weatherheading {
+  grid-column-end: 2 span;
+  margin: 5px;
+}
+
+.AhikeDisplay h3 {
+  padding: 15px;
+  margin-bottom: 0;
+}
+
+.AhikeDisplay h4 {
+  padding: 5px;
+  margin: 0;
+}
+
+.AhikeDisplay p {
+  padding: 10px;
+  margin: 0;
+}
+
+.BhikeDisplay h3 {
+  padding: 15px;
+  margin-bottom: 0;
+}
+
+.BhikeDisplay h4 {
+  padding: 5px;
+  margin: 0;
+}
+
+.BhikeDisplay p {
+  padding: 10px;
+  margin: 0;
+}
+
+.CanhikeDisplay h3 {
+  padding: 15px;
+  margin-bottom: 0;
+}
+
+.CanhikeDisplay h4 {
+  padding: 5px;
+  margin: 0;
+}
+
+.CanhikeDisplay p {
+  padding: 10px;
+  margin: 0;
+}
+
+.CaphikeDisplay h3 {
+  padding: 15px;
+  margin-bottom: 0;
+}
+
+.CaphikeDisplay h4 {
+  padding: 5px;
+  margin: 0;
+}
+
+.CaphikeDisplay p {
+  padding: 10px;
+  margin: 0;
+}
+
+.ZhikeDisplay h3 {
+  padding: 15px;
+  margin-bottom: 0;
+}
+
+.ZhikeDisplay h4 {
+  padding: 5px;
+  margin: 0;
+}
+
+.ZhikeDisplay p {
+  padding: 10px;
+  margin: 0;
+}
+
+.DhikeDisplay h3 {
+  padding: 15px;
+  margin-bottom: 0;
+}
+
+.DhikeDisplay h4 {
+  padding: 5px;
+  margin: 0;
+}
+
+.DhikeDisplay p {
+  padding: 10px;
+  margin: 0;
+}
+
+.ShikeDisplay h3 {
+  padding: 15px;
+  margin-bottom: 0;
+}
+
+.ShikeDisplay h4 {
+  padding: 5px;
+  margin: 0;
+}
+
+.ShikeDisplay p {
+  padding: 10px;
+  margin: 0;
+}
+
+.UhikeDisplay h3 {
+  padding: 15px;
+  margin-bottom: 0;
+}
+
+.UhikeDisplay h4 {
+  padding: 5px;
+  margin: 0;
+}
+
+.UhikeDisplay p {
+  padding: 10px;
+  margin: 0;
+}
+
+h3.heart:after {
+  content: " ♥";
+}
+
+h3.heart:hover:after,
+h3.heart.fav:after {
+  content: " ♡";
+}
+
+h3.heart.fav:hover:after {
+  content: " ♡";
+}
+
+/*# sourceMappingURL=hbgstyles.css.map */

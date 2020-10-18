@@ -1,0 +1,49 @@
+{
+    "brycehikes" : [
+        {
+            "hikeName" : "Fairyland Loop Trail",
+            "details" : " ",
+            "location" : "Bryce Canyon National Park, Bryce, UT",
+            "difficulty" : "Medium",
+            "length" : "7.8 miles",
+            "elevation" : "1,545 feet",
+            "description" : "A medium difficulty hike to view the Tower Bridge. A portion of this trail also offers views of Fairyland Point and Sunrise Point."
+        },
+        {
+            "hikeName" : "Mossy Cave Turret Arch and Little Windows Trail",
+            "details" : " ",
+            "location" : "Bryce Canyon National Park, Bryce, UT",
+            "difficulty" : "Easy",
+            "length" : "1 mile",
+            "elevation" : "118 feet",
+            "description" : "An easy hike for all ages to enjoy a small creek and waterfall near the hoodoos."
+        },
+        {
+            "hikeName" : "Navajo Loop and Queen's Garden Trail",
+            "details" : " ",
+            "location" : "Bryce Canyon National Park, Bryce, UT",
+            "difficulty" : "Medium",
+            "length" : "2.9 miles",
+            "elevation" : "629 feet",
+            "description" : "An medium level hike to view the hoodoos in Bryce Canyon."
+        },
+        {
+            "hikeName" : "Bristlecone Loop Trail",
+            "details" : " ",
+            "location" : "Bryce Canyon National Park, Bryce, UT",
+            "difficulty" : "Easy",
+            "length" : "1 mile",
+            "elevation" : "88 feet",
+            "description" : "This easy hike is on the south end of Bryce Canyon near Rainbow Point. This hike is at a high elevation within Bryce Canyon."
+        },
+        {
+            "hikeName" : "East Fork of the Sevier River Scenic Backway",
+            "details" : " ",
+            "location" : "Bryce Canyon National Park, Bryce, UT",
+            "difficulty" : "Medium",
+            "length" : "34.7 miles",
+            "elevation" : "1,459 feet",
+            "description" : "This is a long, medium level hike that includes a lake. This is a gravel trail that can be used with vehicles and horses."
+        }
+    ]
+}

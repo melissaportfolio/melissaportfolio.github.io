@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zion National Park | Hike Bike Go</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="hbgstyles.css">
+</head>
+<body>
+    <header><div><h1>Hike Bike Go</h1></div></header>
+    <nav>
+        <ul id="navigation">
+            <li><a href="#" id="menu">&equiv; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="national.html">Utah National Parks</a></li>
+            <li><a href="saltlake.html">Salt Lake County</a></li>
+            <li><a href="utah.html">Utah County</a></li>
+            <li><a href="davis.html">Davis County</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="mainsection">
+            <h2>Zion National Park</h2>
+            <div class="weathersection">
+                <p class="weatherheading">Weather Summary for Zion National Park</p>
+               
+                <span class="weatherlabel">Currently:</span>
+                <span class="weatherdata"><span id="Zcurrent-temp"></span></span>
+
+                <span class="weatherlabel">High:</span>
+                <span class="weatherdata"><span id="Ztemp"></span>&deg;</span>
+
+                <span class="weatherlabel">Wind Chill:</span>
+                <span class="weatherdata"><span id="Zcalc"></span>&deg;</span>
+
+                <span class="weatherlabel">Humidity:</span>
+                <span class="weatherdata"><span id="Zhumidity">&deg;</span></span>
+
+                <span class="weatherlabel">Wind Speed:</span>
+                <span class="weatherdata"><span id="Zspeed"></span> mph</span>
+            </div>
+        </section>
+        <section>
+            <div class="ZhikeDisplay"></div>
+        </section>
+    </main>
+    <footer>
+        &copy; 2020 | Melissa Fairbourn | Weather Data courtesy of<a href="https://openweathermap.org/api"> openweathermap.org</a>
+    </footer>
+    <script src="js/WeatherAPI.js"></script>
+</body>
+</html>

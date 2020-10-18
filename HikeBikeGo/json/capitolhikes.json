@@ -1,0 +1,49 @@
+{
+    "capitolhikes" : [
+        {
+            "hikeName" : "Cassidy Arch Trail",
+            "details" : " ",
+            "location" : "Capitol Reef National Park, Torrey, UT",
+            "difficulty" : "Medium",
+            "length" : "3.1 miles",
+            "elevation" : "660 feet",
+            "description" : "A medium difficulty hike with canyoneering and rappeling capability."
+        },
+        {
+            "hikeName" : "Capitol Gorge to Tanks Trail",
+            "details" : " ",
+            "location" : "Capitol Reef National Park, Torrey, UT",
+            "difficulty" : "Easy",
+            "length" : "2.4 miles",
+            "elevation" : "577 feet",
+            "description" : "Views of petroglyphs from the Fremont Tribe are visible on this easy hike."
+        },
+        {
+            "hikeName" : "Golden Throne Trail",
+            "details" : " ",
+            "location" : "Capitol Reef National Park, Torrey, UT",
+            "difficulty" : "Medium",
+            "length" : "3.5 miles",
+            "elevation" : "777 feet",
+            "description" : "A medium difficulty hike to view the Golden Throne in Capitol Reef National Park."
+        },
+        {
+            "hikeName" : "Hickman Bridge Trail",
+            "details" : " ",
+            "location" : "Capitol Reef National Park, Torrey, UT",
+            "difficulty" : "Medium",
+            "length" : "1.8 miles",
+            "elevation" : "440 feet",
+            "description" : "View the Nels Johnson Bridge and Hickman Bridge on this medium level hike."
+        },
+        {
+            "hikeName" : "Old Wagon Loop Trail",
+            "details" : " ",
+            "location" : "Capitol Reef National Park, Torrey, UT",
+            "difficulty" : "Hard",
+            "length" : "3.7 miles",
+            "elevation" : "1,066 feet",
+            "description" : "Difficult hike with panoramic views of Capitol Reef National Park."
+        }
+    ]
+}

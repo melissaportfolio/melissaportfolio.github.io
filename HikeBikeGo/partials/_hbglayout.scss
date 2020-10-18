@@ -1,0 +1,220 @@
+body {
+    background-image: url("/assets/HBG1.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1, h2 {
+    text-align: center;
+    padding: 15px;
+}
+
+.mainsection {
+    position: relative;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li:first-child {
+    display: block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+}
+
+.open li {
+    display: block;
+
+}
+
+// .openDetails {
+//     display: block;
+
+// }
+.buttonContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.homeButtons {
+    display: grid;
+    //grid-template-columns: 1fr 1fr;
+    padding: 15px;
+    margin: 15px;
+    display: grid;
+    //max-width: 30%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+footer {
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    //position: absolute;
+    bottom: 0;
+    width: 90%;
+}
+
+//Weather Data Styles
+.weathersection {
+    padding: 5px;
+    max-width: 100%;
+    //top: 25px;
+    //left: 25px;
+    //position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.weathersection span:nth-child(even){
+    padding-left: 5px;
+}
+
+.weatherlabel {
+    padding: 5px;
+    text-align: right;
+}
+
+.weatherdata {
+    padding: 5px;
+    text-align: left;
+}
+.weatherheading {
+    grid-column-end: 2 span;
+    margin: 5px;
+}
+
+//End of Weather Data Styles
+
+//Hike Styles
+//Arches
+.AhikeDisplay h3 {
+    padding: 15px;
+    margin-bottom: 0;
+}
+.AhikeDisplay h4 {
+    padding: 5px;
+    margin: 0;
+}
+
+.AhikeDisplay p {
+    padding: 10px;
+    margin: 0;
+}
+//Bryce
+.BhikeDisplay h3 {
+    padding: 15px;
+    margin-bottom: 0;
+}
+.BhikeDisplay h4 {
+    padding: 5px;
+    margin: 0;
+}
+
+.BhikeDisplay p {
+    padding: 10px;
+    margin: 0;
+}
+//Canyonlands
+.CanhikeDisplay h3 {
+    padding: 15px;
+    margin-bottom: 0;
+}
+.CanhikeDisplay h4 {
+    padding: 5px;
+    margin: 0;
+}
+
+.CanhikeDisplay p {
+    padding: 10px;
+    margin: 0;
+}
+//Capitol Reef
+.CaphikeDisplay h3 {
+    padding: 15px;
+    margin-bottom: 0;
+}
+.CaphikeDisplay h4 {
+    padding: 5px;
+    margin: 0;
+}
+
+.CaphikeDisplay p {
+    padding: 10px;
+    margin: 0;
+}
+//Zion
+.ZhikeDisplay h3 {
+    padding: 15px;
+    margin-bottom: 0;
+}
+.ZhikeDisplay h4 {
+    padding: 5px;
+    margin: 0;
+}
+
+.ZhikeDisplay p {
+    padding: 10px;
+    margin: 0;
+}
+//Davis
+.DhikeDisplay h3 {
+    padding: 15px;
+    margin-bottom: 0;
+}
+.DhikeDisplay h4 {
+    padding: 5px;
+    margin: 0;
+}
+
+.DhikeDisplay p {
+    padding: 10px;
+    margin: 0;
+}
+//SLC
+.ShikeDisplay h3 {
+    padding: 15px;
+    margin-bottom: 0;
+}
+.ShikeDisplay h4 {
+    padding: 5px;
+    margin: 0;
+}
+
+.ShikeDisplay p {
+    padding: 10px;
+    margin: 0;
+}
+//Utah
+.UhikeDisplay h3 {
+    padding: 15px;
+    margin-bottom: 0;
+}
+.UhikeDisplay h4 {
+    padding: 5px;
+    margin: 0;
+}
+
+.UhikeDisplay p {
+    padding: 10px;
+    margin: 0;
+}
+
+h3.heart:after {
+    content: ' \2665';
+}
+h3.heart:hover:after,
+h3.heart.fav:after {
+    content: ' \2661';
+}
+h3.heart.fav:hover:after {
+    content: ' \2661';
+}

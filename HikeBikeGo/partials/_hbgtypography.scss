@@ -1,0 +1,142 @@
+$font1: 'Cabin', sans-serif; //Cabin
+$font2: 'Source Sans Pro', sans-serif; //Source Sans Pro
+$font3: 'Lato', sans-serif; //Lato
+$font4: 'Rammetto One', cursive; //Rammetto One
+$font5: 'Trade Winds', cursive; //Trade Winds
+//$font4:; //Impact
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: $font2;
+    font-size: 18px;
+}
+h1 {
+    font-family: $font5;
+    font-size: 50px;
+}
+h2 {
+    font-family: $font5;
+}
+
+.homeButtons {
+    font-family: $font5;
+    text-decoration: none;
+    border-radius: 15px 15px 15px 15px;
+}
+
+footer {
+    font-family: $font3;
+}
+
+//Weather
+
+.weatherheading {
+    font-size: 20px;
+    font-family: $font2;
+    text-align: center;
+}
+
+.weatherlabel {
+    font-size: 17px;
+    font-family: $font2;
+}
+
+.weatherdata {
+    font-size: 17px;
+    font-family: $font2;
+}
+
+//Hikes
+//Arches
+.AhikeDisplay h3 {
+    font-family: $font5;
+}
+.AhikeDisplay h4 {
+    font-family: $font2;
+}
+
+.AhikeDisplay p {
+    font-family: $font2;
+}
+//Bryce
+.BhikeDisplay h3 {
+    font-family: $font5;
+}
+.BhikeDisplay h4 {
+    font-family: $font2;
+}
+
+.BhikeDisplay p {
+    font-family: $font2;
+}
+
+//Canyonlands
+.CanhikeDisplay h3 {
+    font-family: $font5;
+}
+.CanhikeDisplay h4 {
+    font-family: $font2;
+}
+
+.CanhikeDisplay p {
+    font-family: $font2;
+}
+//Capitol Reef
+.CaphikeDisplay h3 {
+    font-family: $font5;
+}
+.CaphikeDisplay h4 {
+    font-family: $font2;
+}
+
+.CaphikeDisplay p {
+    font-family: $font2;
+}
+//Zion
+.ZhikeDisplay h3 {
+    font-family: $font5;
+}
+.ZhikeDisplay h4 {
+    font-family: $font2;
+}
+
+.ZhikeDisplay p {
+    font-family: $font2;
+}
+//SLC
+.ShikeDisplay h3 {
+    font-family: $font5;
+}
+.ShikeDisplay h4 {
+    font-family: $font2;
+}
+
+.ShikeDisplay p {
+    font-family: $font2;
+}
+//Davis
+.DhikeDisplay h3 {
+    font-family: $font5;
+}
+.DhikeDisplay h4 {
+    font-family: $font2;
+}
+
+.DhikeDisplay p {
+    font-family: $font2;
+}
+//Utah
+.UhikeDisplay h3 {
+    font-family: $font5;
+}
+.UhikeDisplay h4 {
+    font-family: $font2;
+}
+
+.UhikeDisplay p {
+    font-family: $font2;
+}
