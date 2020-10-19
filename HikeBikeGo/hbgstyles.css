@@ -3,7 +3,10 @@
 body {
   background-color: #65A7CA;
 }
-
+figure img {
+  width: 350px;
+  align-items: center;
+}
 h1 {
   background-color: #65A7CA;
   color: #FFF3D6;
