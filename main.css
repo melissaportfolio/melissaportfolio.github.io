@@ -30,7 +30,7 @@ body, html {
 
 #page-wrapper {
     background-color: #fae1df;
-    border: 5px solid #5a4c6b;
+    border: 15px solid #5a4c6b;
     border-radius: 20px 20px 20px 20px;
     width: 85%;
     margin: 0 auto;
@@ -117,6 +117,10 @@ figcaption a {
 figure img {
     width: 250px;
     align-items: center;
+}
+figure {
+    /* float: left; */
+    text-align: center;
 }
 
 @media only screen and (min-width: 37.5em) {

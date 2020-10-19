@@ -367,21 +367,21 @@ nav ul li a {
   display: block;
 }
 
-.buttonContainer {
+/* .buttonContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
-}
+} */
 
 .homeButtons {
   display: grid;
   padding: 15px;
   margin: 15px;
-  display: grid;
+  /* display: grid;
   width: 100px;
-  height: 100px;
+  height: 100px; */
   text-align: center;
-  justify-content: center;
-  align-content: center;
+  /* justify-content: center;
+  align-content: center; */
 }
 
 footer {
