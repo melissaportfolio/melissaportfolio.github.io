@@ -7,6 +7,9 @@ figure img {
   width: 350px;
   align-items: center;
 }
+figure {
+  text-align: center;
+}
 h1 {
   background-color: #65A7CA;
   color: #FFF3D6;
@@ -25,6 +28,7 @@ p {
 .homeButtons {
   background-color: #3E6336;
   color: #E7D7C1;
+  /* max-width: 350px; */
 }
 
 footer {
@@ -370,10 +374,9 @@ nav ul li a {
   display: block;
 }
 
-/* .buttonContainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-} */
+.buttonContainer {
+  max-width: 425px;
+}
 
 .homeButtons {
   display: grid;
