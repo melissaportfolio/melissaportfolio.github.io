@@ -45,18 +45,33 @@ h1 {
 }
 nav {
     margin:0 auto;
+    background-color: #5a4c6b;
 }
 nav ul {
     text-decoration: none;
     padding: 0;
 }
+nav ul li {
+    float: left;
+    display: block;
+}
 nav ul li a {
     font-family: 'Playfair Display', serif;
-    color: #5a4c6b;
+    color: #fae1df;
     text-decoration: none;
+    font-size: 20px;
+
+    display: block;
+    
+    list-style: none;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
 }
 nav ul li a:hover {
     text-decoration: none;
+    color: #5a4c6b;
+    background-color: #fae1df;;
 }
 .navigation {
     list-style: none;
@@ -64,6 +79,11 @@ nav ul li a:hover {
     padding: 0;
     overflow: hidden;
     border-left: 1px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
 }
 .navigation li:first-child {
     display: block;
@@ -74,20 +94,20 @@ nav ul li a:hover {
 }
 .navigation a {
     display: block;
-    color: #5a4c6b;
+    /* color: #5a4c6b; */
     padding: .25rem;
     text-align: center;
     text-decoration: none;
 }
-.navigation a:hover {
+/* .navigation a:hover {
     color: #5a4c6b;
     
    
-}
+} */
 .responsive li {
     display: block;
 }
-h2, h3, h4, h5 {
+h2, h3, h4, h5, h6 {
     font-family: 'Oxygen', sans-serif;
     color: #5a4c6b;
     text-align: center;
@@ -124,6 +144,9 @@ figure {
     /* float: left; */
     text-align: center;
 }
+.link {
+    text-align: center;
+}
 
 @media only screen and (min-width: 37.5em) {
     main, footer{
@@ -134,7 +157,7 @@ figure {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        font-size: 15px;
+        /* font-size: 15px; */
     }
     .navigation li:first-child {
         display: none;
@@ -146,9 +169,9 @@ figure {
     #menu {
         display: none;
     } 
-    .navigation ul li a:hover {
+    /* .navigation ul li a:hover {
         background-color: #ffcb47;
-    }
+    } */
 }
 
 @media only screen and (min-width: 60em) {

@@ -8,32 +8,58 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Josefin+Sans&family=Oxygen:wght@400;700&family=Playfair+Display&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="../main.css">
 </head>
 
 <body>
+    <div id="page-wrapper">
     <main>
 
 
         <header>
             <h1>Melissa Fairbourn</h1>
-            <nav>
+            <nav class="navigation">
                 <ul>
-                    <li><a>Home</a></li>
-                    <li><a>Web Design</a></li>
-                    <li><a>Graphic Design</a></li>
-                    <li><a>Photography</a></li>
-                    <li><a>Fine Art</a></li>
-                    <li><a>Contact</a></li>
+                    <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../pages/webdesign.html">Web Design</a></li>
+                    <li><a href="../pages/graphicdesign.html">Graphic Design</a></li>
+                    <li><a href="../pages/photography.html">Photography</a></li>
+                    <li><a href="../pages/fineart.html">Fine Art</a></li>
+                    <li><a href="../pages/contact.html">Contact</a></li>
                 </ul>
             </nav>
         </header>
-        <h2>Web Design</h2>
-       
+        <h2>Experience Using:</h2>
+        <p>HTML, CSS/SCSS, Javascript</p>
+        <p>SQL, PL/SQL</p>
+        <p>Java, PHP</p>
+        <p>MySQL, Linux, VSCode, VMWare, IntelliJ IDEA</p>
+        <h3>Web Design</h3>
+        <figure>
+            <figcaption>
+                <img src="../images/HuckleberryWeather.png" alt="">
+                <a href="../HuckleberryWeather/index.html">View Full Weather Site</a>
+            </figcaption>
+        </figure>
+        <figure>
+            <figcaption>
+                <img src="../images/HikeBikeGo.png" alt="">
+                <a href="../HikeBikeGo/index.html">View Full Hiking Site</a>
+            </figcaption>
+        </figure>
+        <figure>
+            <figcaption>
+                <img src="../images/TempleInn.png" alt="">
+                <a href="../final-project/index.html">View Full Hotel Site</a>
+            </figcaption>
+        </figure>
     </main>
     <footer>
-        <p>This is the footer. Isn't it awesome?!</p>
+        <p>&copy;2020 | Melissa Fairbourn</p>
+        <script src="../js/togglemenu.js"></script>
     </footer>
+</div>
 </body>
 
 
