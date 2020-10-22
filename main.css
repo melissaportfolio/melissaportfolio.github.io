@@ -147,6 +147,10 @@ figure {
 .link {
     text-align: center;
 }
+hr {
+    border-top: 4px solid #5a4c6b; 
+    margin-top: 20px;
+}
 
 @media only screen and (min-width: 37.5em) {
     main, footer{
