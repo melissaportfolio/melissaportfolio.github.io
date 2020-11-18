@@ -93,6 +93,12 @@ a {
     text-align: center;
     text-decoration: none;
 }
+.list {
+    font-family: 'Playfair Display', serif;
+    color:#F3EFF5;
+    text-align: left;
+    font-size: 20px;
+}
 figcaption a {
     display: block;
     color: #F3EFF5;
