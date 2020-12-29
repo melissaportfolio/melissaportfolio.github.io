@@ -75,6 +75,8 @@ figcaption a:hover {
 .icons {
     display: flex;
     flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
 }
 .icon-fig {
     position: relative;
