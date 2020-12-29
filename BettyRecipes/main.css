@@ -1,6 +1,7 @@
 /*font-family: 'Lora', serif;
 font-family: 'Noto Sans', sans-serif;
-font-family: 'Quintessential', cursive;*/
+font-family: 'Quintessential', cursive;
+lavendar color: #9f81aa */
 
 body,
 html {
@@ -12,14 +13,26 @@ html {
     background-attachment: fixed;
     background-size: cover; */
 }
+header {
+    background-color: hsl(284, 19%, 59%, .75);
+}
+nav ul li {
+    list-style: none;
+}
 nav ul li a {
+    font-family: 'Noto Sans', sans-serif;
     text-decoration: none;
+    color: #24294A;
+}
+nav ul li a:hover {
+    color: #ffffff;
 }
 h1 {
     font-family: 'Quintessential', cursive;
     color: white;
     font-size: 55px;
     text-align: center;
+    margin-bottom: 0;
 }
 
 h2 {
@@ -27,6 +40,7 @@ h2 {
     color: white;
     font-size: 65px;
     text-align: center;
+    margin-top: 0;
 }
 
 figure {
@@ -43,11 +57,11 @@ figure img {
 figcaption a {
     font-family: 'Noto Sans', sans-serif;
     text-decoration: none;
-    color: white;
+    color: #24294A;
     display: block;
     padding: .25rem;
     text-align: center;
-    background-color: #313972;
+    /* background-color: #313972; */
     margin: 0 auto;
     border-radius: 20px 20px 20px 20px;
 
@@ -55,8 +69,7 @@ figcaption a {
 }
 
 figcaption a:hover {
-    background-color: #09b0a8;
-    color: #24294A;
+    color: #ffffff;
 }
 
 .icons {
@@ -84,6 +97,8 @@ figcaption a:hover {
 footer {
     text-align: center;
     color: white;
+    background-color: hsl(284, 19%, 59%, .75);
+    padding: 20px;
 }
 
 
