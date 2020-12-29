@@ -66,6 +66,14 @@ figcaption a:hover {
 .icon-fig {
     position: relative;
     text-align: center;
+    background-color: #09b0a8;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.icon-background {
+    position: relative;
+    text-align: center;
 }
 .recipeCategory {
   position: absolute;
@@ -78,10 +86,4 @@ footer {
     color: white;
 }
 
-a {
-        background-color: red;
-        color: white;
-        padding: 1em 1.5em;
-        text-decoration: none;
-        text-transform: uppercase;
-      }
+
