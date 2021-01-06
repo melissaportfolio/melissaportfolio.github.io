@@ -1,7 +1,7 @@
 /*font-family: 'Lora', serif;
 font-family: 'Noto Sans', sans-serif;
 font-family: 'Quintessential', cursive;
-lavendar color: #9f81aa */
+lavender color: #9f81aa */
 
 body,
 html {
@@ -98,14 +98,15 @@ figcaption a:hover {
 }
 footer {
     text-align: center;
-    color: white;
+    color: #ffffff;
     background-color: hsl(284, 19%, 59%, .75);
     padding: 20px;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .expand {
-    background-color: #eee;
-    color: #444;
+    background-color: #ffffff;
+    color: #24294A;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -115,14 +116,21 @@ footer {
     font-size: 15px;
 }
 .open, .expand:hover {
-    background-color: #ccc;
+    background-color: #9f81aa;
+    color: #ffffff;
   } 
 
 .recipe-content {
     padding: 0 18px;
     display: none;
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: hsl(0, 0%, 95%, .5);
+}
+
+img.recipe-img {
+    width:90%;
+    display: block;
+    margin: 0 auto;
 }
 
 
