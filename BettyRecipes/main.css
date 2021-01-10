@@ -13,11 +13,16 @@ html {
     background-attachment: fixed;
     background-size: cover; */
 }
-header {
+.hero-background {
     background-color: hsl(284, 19%, 59%, .75);
+    padding: 20px;
 }
-nav ul li {
+
+nav ul {
     list-style: none;
+  }
+  nav ul li {
+    display: none;
 }
 nav ul li a {
     font-family: 'Noto Sans', sans-serif;
@@ -27,6 +32,14 @@ nav ul li a {
 nav ul li a:hover {
     color: #ffffff;
 }
+nav ul li:first-child {
+    display: block;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px;
+  }
 h1 {
     font-family: 'Quintessential', cursive;
     color: white;
@@ -57,7 +70,7 @@ figure img {
 figcaption a {
     font-family: 'Noto Sans', sans-serif;
     text-decoration: none;
-    color: #24294A;
+    color: #ffffff;
     display: block;
     padding: .25rem;
     text-align: center;
@@ -69,7 +82,7 @@ figcaption a {
 }
 
 figcaption a:hover {
-    color: #ffffff;
+    color: #24294A;
 }
 
 .icons {
@@ -132,5 +145,9 @@ img.recipe-img {
     display: block;
     margin: 0 auto;
 }
-
-
+.open-menu li {
+    display: block;
+  }
+#menu {
+    font-size: 60px;
+}
